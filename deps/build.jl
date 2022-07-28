@@ -132,7 +132,7 @@ end
 if Sys.ARCH == :x86_64
     # TODO: cross-compile for x86
     provides(Binaries,
-             URI("https://dl.bintray.com/mweastwood/LibHealpix.jl/dependencies-v0.2.3-0.tar.gz"),
+             URI("https://web.archive.org/web/20210501114643/https://dl.bintray.com/mweastwood/LibHealpix.jl/dependencies-v0.2.3-0.tar.gz"),
              [libcfitsio, libchealpix, libhealpix_cxx, libhealpixwrapper],
              SHA="aee83f5f36cd48d3cf9e00dbb6231ef09a9eb26aca5b2e30c542ada0a0656b29",
              os=:Linux)
